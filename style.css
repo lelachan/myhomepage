@@ -1,0 +1,451 @@
+@import "compass/css3";
+
+html, body {
+    background-color: white;
+    color:white;
+    font-family: 'Athiti', sans-serif;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+  background-color:#233237;
+  height: 9%;
+  display: flex;
+	position: fixed;
+	width: 100%;
+	height: 8%;
+	top: 0;
+	z-index: 1;
+}
+
+header ul li{
+  font-size: 20px;
+  float: left;
+  margin: -5px 15px;
+  list-style: none;
+  border-bottom-style: dashed;
+  border-bottom-width: 1px;
+  border-bottom-color: white;
+}
+
+a{ 
+  color: white;
+  text-decoration:none
+}
+
+.nav a:hover{
+	color:#233237;
+	background: whitesmoke;
+	border-radius: 5px;
+	border-bottom-style: solid;
+	border-bottom-color: transparent;
+}
+
+/* Intro page */
+.pageOne {
+  padding-top: 100px;
+  background-image: linear-gradient(#233237, white);
+  background-size: cover;
+  height: 900px;
+	width: 100%;
+}
+
+#overlay {
+  height: 900px;
+	width: 100%;
+}
+
+.pageTwo {
+  background-size: cover;
+  min-height: 100%;
+  padding-bottom: 40px;
+  padding-top:40px;
+  padding-left: 150px;
+  padding-right: 150px;
+  color: #233237;
+}
+
+.pageThree {
+  background-size: cover;
+  min-height: 100%;
+  padding-top: 20px;
+  padding-bottom: 60px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.pageFour {
+  padding-top: 5px;
+  margin-top: -20px;
+	padding-bottom: 100px;
+}
+
+.pageFive {
+  background-size: cover;
+  height: 350px;
+} 
+
+h1 {
+	color:#233237;
+  padding-top: 10px;
+  font-size: 10.0em;
+}
+
+h2 {
+  font-size: 3.0em;
+  color: #233237;
+}
+
+h3 {
+  font-size: 30px;
+  color: #233237;
+}
+
+p {
+	font-size: 25px;
+  color: #626E60;
+}
+
+.title {
+  padding-bottom: 10px;
+  width: 1100px;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+  top: 250px;
+}
+
+#name {
+  margin-top: 10px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 8em;
+  color: white;
+  overflow: hidden;
+  border-right: 5px solid orange;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: .1em;
+  animation: 
+    typing 2.5s steps(20, end),
+    blink-caret .5s step-end infinite;
+}
+
+@media (max-width: 1000px) {
+	.nav {
+     position: relative;
+     min-height: 30px;
+        }           
+
+	.nav ul {
+			margin-left:30px;
+			width: 180px;
+			padding: 5px 0;
+			position: absolute;
+			top: 0;
+			left: 0;
+			border: solid 1px #aaa;
+			background: white url(images/icon-menu.png) no-repeat 10px 11px;
+			border-radius: 3px;
+			box-shadow: 0 1px 2px rgba(0,0,0,.3);
+	}
+
+	.nav li {
+			display: none; /* hide all <li> items */
+			margin: 0;
+			color: #233237;
+	}
+
+	.nav .current {
+			display: block; /* show only current <li> item */
+	}
+
+	.nav a {
+			color: #233237;
+			display: block;
+			padding: 5px 5px 5px 50px;
+			text-align: left;
+	}
+
+	.nav .current a {
+			background: none;
+	}
+
+	/* on nav hover */
+	.nav ul:hover {
+			background-image: none;
+	}
+
+	.nav ul:hover li {
+			color:#233237;
+			display: block;
+			margin: 0 0 5px;
+	}
+
+	.nav ul:hover .current {
+			background: url(images/icon-check.png) no-repeat 10px 7px;
+	}
+
+	/* right nav */
+	.nav.right ul {
+			left: auto;
+			right: 0;
+	}
+
+	/* center nav */
+	.nav.center ul {
+			left: 50%;
+			margin-left: -90px;
+	}
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: white }
+}
+
+#Form{
+  text-align: center;
+  color:#233237;
+}
+
+ 
+.timeline ul {
+  padding: 50px;
+  margin: 5px;
+  border-radius: 15px;
+  position: relative;
+  text-align: center;
+  padding: 0 0 0 1em;
+}
+
+ .timeline ul li {
+	  opacity:1;
+	  margin-left:-1%;
+    background: #E9E7DA;
+	  border-radius:20px;
+    padding: 1em;
+    margin-bottom: 1em;
+    position: relative;
+	  color: white;
+	 	text-align:center;
+  }
+	
+ .year {
+    max-width: 6em;
+    margin: 0 auto 1em;
+    padding: 0.5em;
+    text-align: center;
+    position: relative;
+    clear: both;
+  }
+
+.quali {
+  font-size: 30px;
+  color: white;
+  opacity: .8;
+	margin-left:6%;
+  padding-bottom: 50px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 30px;
+  border-radius: 20px;
+  position: relative;
+  text-align: center;
+	background: #233237;
+	width:80%;
+	height:100%;
+	list-style:none;
+}
+
+.quali1{
+	font-size: 25px;
+  color: #233237;
+  padding-bottom: 50px;
+	margin-left:6%;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 20px;
+  border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+  text-align: center;
+	background:#E9E7DA ;
+	width:80%;
+	height:150%;
+	list-style:none;
+	margin-top: -7%;
+	position: relative;
+}
+
+.quali2{
+	color:white;
+	background:#233237;
+	opacity: .8;
+	width:80%;
+	height:100%;
+	margin-left:6%;
+	border-radius: 20px;
+  position: relative;
+  text-align: center;
+	font-size: 30px;
+	padding:50px;
+	list-style:none;
+}
+
+.email{
+  color:#233237;
+  font-size: 25px;
+  font-style: italic;
+  text-align:center;
+}
+
+.po{
+  font-style: italic;
+  border-bottom-style:solid;
+  border-width: 1px;
+  font-size: 25px;
+  margin-left: 45%;
+	color:#233237
+}
+
+.pageTitle {
+  font-size: 6.5em;
+  padding-bottom: 15px;
+  text-align: center;
+	color: #233237;
+}
+
+footer {
+  background-color: black;
+  color: gray;
+  line-height: 20px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  width: 100%;
+  bottom: 0;
+  position: relative;
+  text-align: center;
+}
+
+/* 
+background scroll effects only work in desktop versions with larger   screen sizes, preventing background images from getting distorted in smaller tablets, phones, etc.  
+*/
+@media (min-width:1400px)   {
+  .pageOne, .pageTwo, .pageThree, .pageFour, .pageFive {
+    	background-repeat: no-repeat; 
+      background-attachment: fixed;
+      background-position: center; 
+   }
+}
+
+/*mobile screens */
+@media (max-width: 800px) and (min-width: 300px) {
+  img {
+    width: 30vw; 
+    height: 30vh;
+  }
+  h1 {
+    font-size: 12vw;
+  }
+  h2 {
+    font-size: 8vw;
+  }
+  h3 {
+    font-size: 6vw;
+  }
+  p {
+    font-size: 6vw;
+  }
+  ul {
+    font-size: 4.5vw;
+    width: 80%;
+  }
+  
+  .pageOne {
+    background-size: 100% 100%;
+    height: 500px;
+  }
+  .title {
+    padding-bottom: 10px;
+    width: 90%;
+    top: 100px;
+  }
+  #name {
+    font-size: 12vw;
+  }
+  .border {
+    width: 25%;
+    border-width: 2px;
+  }
+  .pageTitles {
+    width: 85%;
+  }
+  #pageTitle {
+    padding-bottom: 15px;
+    font-size: 12vw;
+  }
+  #footer {
+    font-size: 3vw;
+  }
+}
+
+/*ipad screens*/
+@media (max-width: 1000px) and (min-width: 600px) {
+  img {
+    width: 30vw; 
+    height: 30vh;
+  }
+  h1 {
+    font-size: 8vw;
+  }
+  h2 {
+    font-size: 6vw;
+  }
+  h3 {
+    font-size: 4vw;
+  }
+  p {
+    font-size: 4vw;
+  }
+  ul {
+    font-size: 3.5vw;
+    width: 80%;
+  }
+ 
+  .pageOne {
+    background-size: 100% 100%;
+    height: 700px;
+  }
+  .title {
+    padding-bottom: 10px;
+    width: 90%;
+    top: 50px;
+  }
+  #name {
+    padding-top: 12vw;
+    font-size: 12vw;
+  }
+  .border {
+    width: 25%;
+    border-width: 2px;
+  }
+  .pageTitles {
+    width: 85%;
+  }
+  #pageTitle {
+    font-size: 9vw;
+  }
+
+  #footer {
+    font-size: 3vw;
+  }
+}
