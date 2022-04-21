@@ -1,7 +1,7 @@
 @import "compass/css3";
 
 html, body {
-    background-color: #233237;
+    background-color: white;
     color:white;
     font-family: 'Athiti', sans-serif;
     width: 100%;
@@ -10,7 +10,7 @@ html, body {
 }
 
 header{
-  background-color:white;
+  background-color:#233237;
   height: 9%;
   display: flex;
 	position: fixed;
