@@ -10,7 +10,7 @@ html, body {
 }
 
 header{
-  background-color:blue;
+  background-color:#233237;
   height: 9%;
   display: flex;
 	position: fixed;
