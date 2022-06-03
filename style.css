@@ -135,7 +135,7 @@ img{
   display: table-cell;
   vertical-align: middle;
   text-align: center;
-	margin-left:41%;
+	margin-left:43%;
 	margin-top: 10%;
 	margin-bottom:-15%;
 }
@@ -145,7 +145,7 @@ img{
 	width:50%;
 	padding-top: -50%;
 	padding-bottom: 50px;
-	padding-left: 3%;
+	padding-left: 5%;
   text-align: center;
   font-weight: bold;
   font-size: 5em;
@@ -244,7 +244,7 @@ img{
 }
 
 .Form{
-	padding-left: 6%;
+	padding-left: 4%;
 	 font-size: 28px;
 	 font-family: 'Gochi Hand', cursive;
   text-align: center;
