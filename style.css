@@ -128,13 +128,28 @@ p {
   top: 250px;
 }
 
+.imgg{
+	width:250px;
+	height:250px;
+	border-radius: 50%;
+  border:1px dashed #ccc;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+	margin-left:45%;
+	margin-top: 10%;
+	margin-bottom:-15%;
+}
+
 .name {
 	 font-family: 'Athiti', sans-serif; 
-	padding-bottom: 80px;
+	width:50%;
+	padding-top: -50%;
+	padding-bottom: 50px;
 	padding-left: 10%;
   text-align: center;
   font-weight: bold;
-  font-size: 6.8em;
+  font-size: 5em;
   color: white;
   overflow: hidden;
   border-right: 5px solid orange;
@@ -142,7 +157,7 @@ p {
   margin: 0 auto;
   letter-spacing: .1em;
   animation: 
-    typing 2.5s steps(20, end),
+    typing 2s steps(20, end),
     blink-caret .5s step-end infinite;
 }
 
