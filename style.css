@@ -341,6 +341,11 @@ p{
 	list-style:none;
 }
 
+.s{
+	display: inline-block;
+	margin-bottom:-50px;
+}
+
 .ac{
 	font-family: 'Gochi Hand', cursive;
   font-size: 40px;
