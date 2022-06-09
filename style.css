@@ -396,6 +396,23 @@ p{
 	position: relative;
 }
 
+.sk{
+	font-family: 'Gochi Hand', cursive;
+  font-size: 35px;
+  color: #233237;
+  list-style: none;
+  text-align:center;
+  background: #E9E7DA ;
+  border-bottom-right-radius: 18px;
+  border-bottom-left-radius: 18px;
+  border-top-right-radius: 18px;
+  border-top-left-radius: 18px;
+  width: 33%;
+  margin-left:37%;
+  margin-top: 12%;
+  text-align: center;
+}
+
 .left{
 	height: 50px;
 	width: 55%;
