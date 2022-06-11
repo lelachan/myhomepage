@@ -253,12 +253,18 @@ img{
 
  
 .timeline ul {
+	list-style: none;
   padding: 50px;
   margin: 5px;
   border-radius: 15px;
   position: relative;
   text-align: center;
   padding: 0 0 0 1em;
+}
+
+.timeline a{
+	color:#233237; 
+	border-bottom-style: solid;     border-bottom-width:2px;
 }
 
  .timeline ul li {
@@ -272,6 +278,10 @@ img{
 	  color: white;
 	 	text-align:center;
   }
+
+	.timeline a:hover {
+		color: #626E60;
+	}
 	
  .year {
 	 font-family: 'Gochi Hand', cursive;
@@ -287,6 +297,16 @@ img{
 p{
 	font-family: 'Gochi Hand', cursive;
 }
+
+.quali1 a{
+	font-weight: bold;
+	color:#233237; 
+	border-bottom-style: solid;     border-bottom-width:1.5px;
+}
+
+	.quali1 a:hover {
+		color: #626E60;
+	}
 
 .quali {
   font-size: 30px;
@@ -344,6 +364,15 @@ p{
 	display: inline-block;
 	margin-bottom:-50px;
 }
+
+.ac1 a{
+	color:#233237; 
+	border-bottom-style: solid;     border-bottom-width:2px;
+}
+
+	.ac1 a:hover {
+		color: #626E60;
+	}
 
 .ac{
 	font-family: 'Gochi Hand', cursive;
@@ -406,7 +435,7 @@ p{
   border-bottom-left-radius: 18px;
   border-top-right-radius: 18px;
   border-top-left-radius: 18px;
-  width: 31%;
+  width: 32%;
   margin-left:37%;
   margin-top: 12%;
   text-align: center;
@@ -434,12 +463,20 @@ p{
 }
 
 .po{
+	font-weight: bold;
   font-style: italic;
   border-bottom-style:solid;
   border-width: 1px;
   font-size: 25px;
-  margin-left: 45%;
+  margin-left: 44%;
 	color:#233237
+}
+
+.po:hover{
+	text-align:center;
+	padding: 10px;
+	border-radius: 10px;
+	background-color: #e9e7da;
 }
 
 .Title {
@@ -574,3 +611,4 @@ background scroll effects only work in desktop versions with larger   screen siz
     font-size: 3vw;
   }
 }
+
