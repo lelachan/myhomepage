@@ -155,7 +155,7 @@ img{
   margin: 0 auto;
   letter-spacing: .1em;
   animation: 
-    typing 3s steps(20, end),
+    typing 2s steps(20, end),
     blink-caret .5s step-end infinite;
 }
 
@@ -394,7 +394,7 @@ p{
 .ac1{
 	font-family: 'Athiti', sans-serif;
   font-weight: bold;
-	font-size: 33px;
+	font-size: 30px;
   color: #233237;
   margin-bottom: -30px;
 	margin-left:5%;
@@ -407,12 +407,13 @@ p{
 	list-style:none;
 	margin-top: 2%;
 	position: relative;
+	font-weight: bold;
 }
 
 .ac2{
-	font-size: 30px;
+	font-size: 25px;
   color: grey;
-  margin-bottom: -40px;
+  margin-bottom: -5%;
 	margin-left:5%;
 	padding-left: 50px;
 	padding-right: 50px;
@@ -424,9 +425,24 @@ p{
 	position: relative;
 }
 
-.sk{
+.ac3{
+	font-size: 25px;
+  color: grey;
+  margin-bottom: -3%;
+	margin-left:5%;
+	padding-left: 50px;
+	padding-right: 50px;
+  text-align: center;
+	width:80%;
+	height:100%;
+	list-style:none;
+	margin-top: 3%;
+	position: relative;
+}
+
+.sk1{
 	font-family: 'Gochi Hand', cursive;
-  font-size: 35px;
+  font-size: 30px;
   color: #233237;
   list-style: none;
   text-align:center;
@@ -435,20 +451,90 @@ p{
   border-bottom-left-radius: 18px;
   border-top-right-radius: 18px;
   border-top-left-radius: 18px;
-  width: 32%;
+  width: 40%;
   margin-left:37%;
-  margin-top: 12%;
+  margin-top: 20%;
   text-align: center;
 }
 
+.sk2{
+	font-family: 'Athiti', sans-serif;
+  font-weight: bold;
+	font-size: 28px;
+  color: #233237;
+  margin-bottom: -30px;
+	margin-left:5%;
+	padding-left: 50px;
+	padding-right: 50px;
+  text-align: center;
+	width:80%;
+	height:100%;
+	list-style:none;
+	position: relative;
+	font-weight: bold;
+}
+
+.sk3{
+	font-size: 25px;
+  color: grey;
+	margin-left:5%;
+	padding-left: 50px;
+	padding-right: 50px;
+	margin-bottom: 33%;
+  text-align: center;
+	width:80%;
+	height:100%;
+	list-style:none;
+	margin-top: 10%;
+	position: relative;
+}
+
+.sk4{
+	font-size: 25px;
+  color: grey;
+	margin-left:5%;
+	padding-left: 50px;
+	padding-right: 50px;
+	margin-bottom: -4%;
+  text-align: center;
+	width:80%;
+	height:100%;
+	list-style:none;
+	margin-top: 5%;
+	position: relative;
+}
+
+
 .left{
+	margin-left: -5%;
+	height: 50px;
+	width: 40%;
+	float: left;
+}
+
+.middle{
+	margin-left: -7%;
+	height: 50px;
+	width: 40%;
+	float: left;
+}
+
+.right{
+	margin-top: -1.5%;
+	margin-right: 4%;
+	height: 50px;
+	width: 30%;
+	float: right;
+}
+
+.left1{
 	height: 50px;
 	width: 55%;
 	float: left;
 }
 
-.right{
-	margin-top: -4%;
+.right1{
+	margin-top: -3.5%;
 	height: 50px;
 	width: 55%;
 	float: right;
