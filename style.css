@@ -400,7 +400,7 @@ p{
 	margin-left:5%;
 	padding-left: 50px;
 	padding-right: 50px;
-	padding-top: 50px;
+	padding-top: 8%;
   text-align: center;
 	width:80%;
 	height:100%;
@@ -411,7 +411,7 @@ p{
 }
 
 .ac2{
-	font-size: 25px;
+	font-size: 23px;
   color: grey;
   margin-bottom: -5%;
 	margin-left:5%;
@@ -426,7 +426,7 @@ p{
 }
 
 .ac3{
-	font-size: 25px;
+	font-size: 23px;
   color: grey;
   margin-bottom: -3%;
 	margin-left:5%;
@@ -584,6 +584,79 @@ footer {
   text-align: center;
 }
 
+#slider {
+  position: relative;
+  overflow: hidden;
+  margin: 20px auto 0 auto;
+  border-radius: 4px;
+}
+
+#slider ul {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  height: 200px;
+  list-style: none;
+}
+
+#slider ul li {
+  position: relative;
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 600px;
+  height: 400px;
+  background: #ccc;
+  text-align: center;
+  line-height: 300px;
+	padding-top:6%;
+	color: #233237;
+	font-weight:bold;
+	background-color: white;
+}
+
+a.control_prev, a.control_next {
+  position: absolute;
+  top: 40%;
+  z-index: 999;
+  display: block;
+  padding: 4% 3%;
+  width: auto;
+  height: auto;
+  background: #233237;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+a.control_prev:hover, a.control_next:hover {
+  opacity: 1;
+  -webkit-transition: all 0.2s ease;
+}
+
+a.control_prev {
+  border-radius: 0 2px 2px 0;
+}
+
+a.control_next {
+  right: 0;
+  border-radius: 2px 0 0 2px;
+}
+
+.slider_option {
+  position: relative;
+  margin: 10px auto;
+  width: 160px;
+  font-size: 18px;
+}
+
+
+
+
 /* 
 background scroll effects only work in desktop versions with larger   screen sizes, preventing background images from getting distorted in smaller tablets, phones, etc.  
 */
@@ -697,5 +770,4 @@ background scroll effects only work in desktop versions with larger   screen siz
     font-size: 3vw;
   }
 }
-
 
